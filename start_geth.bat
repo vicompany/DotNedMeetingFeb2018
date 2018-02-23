@@ -1,0 +1,1 @@
+"C:\Program Files\Geth\geth.exe"  --rinkeby --fast --cache=4096 --rpc --rpcapi="eth,web3,personal,miner"

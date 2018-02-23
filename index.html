@@ -1,0 +1,438 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Hohoho, Ethereum Kerstcadeau!</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="lib/vicompany.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="lib/dotned-background.svg">
+					<h1 style="text-shadow: 2px 2px #444;">Hohoho, Ethereum Kerstcadeau!</h1>
+					<h4 style="text-shadow: 2px 2px #444;">Ontwikkel een Ethereum oplossing in .Net</h4>
+					<aside class="notes">
+						Stel je zelf voor<br/>
+						Vraag de zaal wie er coins heeft.<br/>
+						Vraag wie er al met ethereum heeft ontwikkeld.<br/>
+						Wat gaan we leren vandaag
+					</aside>
+				</section>
+				<section data-background="lib/xmasparty.gif"  data-transition="none">
+					<h3 style="position: fixed; left: 5%; top: 5%; text-shadow: 2px 2px #444;">Wat de meeste mensen met kerst doen.</h3> 
+					 
+					
+				</section> 
+				<section>
+					<h3>Dit deden wij met kerst!</h3>
+					<span>Een kerst cadeau maken</span>
+					<span class="fragment">
+						<blockquote>
+						BNR - Voortaan cryptomunten onder de boom 
+						</blockquote>
+						<blockquote>
+						FD - 
+					Nieuw in het kerstpakket: een ‘smart contract’ voor cryptomunt ether 
+						</blockquote>
+						<blockquote>
+						Volkskrant - 
+						
+                Rotterdams softwarebedrijf vervangt in zijn kerstpakket de jaarlijkse fles wijn voor een stukje cryptomunt
+            
+            
+						</blockquote>
+					</span>
+					<aside class="notes">
+						Hier uitleggen wat het kerstcadeau inhoud.. <br>
+						- 0.015 ether per ontvanger (collega's, klanten en vrienden van bedrijf)<br>
+						- 3 momenten van automatische uitkering... kerst avond, 1e kerst dag en 2e kerstdag<br>
+						- Token om mee te claimen via een kaart<br>
+					</aside>
+				</section>
+				<section>
+					<h3>Wij zijn wij</h3>
+					<ul class="people-list">
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/sophia-van-der-meijden.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/tamara-manikus.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/vincent-rutten.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/casper-broeren.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/kees-de-koning.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/lucian-popescu.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/max-senden.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/nick-verschoor.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/olaf-muller.jpg')"></div>
+                            </li>
+                            <li class="people-list__item">
+                                <div class="people-list__avatar" style="background-image: url('http://hohoho.vicompany.nl/images/people/roach.jpg')"></div>
+                            </li>
+                        </ul>
+					<aside class="notes">
+						Tekstschrijvers, designers, facilitators en developers 
+					</aside>
+				</section>
+				<section>
+					<h3>Ons kerstcadeau in de blockchain</h3>
+					<ul> 
+ 						<li>Een smart contract in Ethereum</li>
+						<li>Aanroepbaar via .Net core</li>	
+						<li>Hosting in Azure</li>
+					</ul>
+					<aside class="notes">
+						Hier uitleggen wat Ethereum is en waarom hier voor gekozen;<br>
+						- Ethereum is een van de bekende crypto munten <br>
+						- Kan complexe scripts binnen de blockchain uitvoeren; ergo een smart contract<br>
+						- Acties binnen de blockchain kosten geld<br>
+						- Heeft een interface met dotNet<br>
+					</aside>
+				</section>
+				<section>
+					<h3>Eerst Ethereum</h3>
+				</section>
+				<section> 
+						<img class="stretch plain"  src="lib/ethereum.PNG" />
+						<blockquote class="fragment">
+							Ether is a necessary element — a fuel — for operating the distributed application platform Ethereum. 
+						</blockquote>
+						<aside class="notes">  
+							Vitalik Buterin is oprichter in 2015<br/>
+							Zowel globaal netwerk als private blockchain<br/>
+							applicaties kan je vorm geven in smart contracts<br/>
+						</aside>
+				</section>
+				<section>
+					<h3>Termen</h3>
+					Wallet = <span class="fragment">Adres waar ether op kan komen</span> <br/>
+					Smart contract =<span class="fragment"> Adres met functies en data.</span><br/>
+					Transactie =<span class="fragment"> Mutatie aan de blockchain</span><br/>  
+				</section>
+				<section>
+					<h3>Proof of work/Proof of stake</h3>
+						<img class="stretch plain"  src="lib/proof-of-work-stake_1024x1024.jpg" /> 
+				</section>
+				<section>
+					<h3>Gas</h3>
+					<img class="stretch plain"  src="lib/gas.PNG" /><br/>
+					Check <a href="https://ethstats.net/" target="_blank">EthStats</a> of <a href="https://etherscan.io/txsPending" target="_blank">txsPending</a>
+					<aside class="notes">
+							Gas is het bedrag aan ether wat je vooraf voor de transactie kosten mee geeft. <br/>
+							Dit kan op gaan.<br/>
+							Hier hebben we veel fouten in gemaakt tijdens live gang <br/>
+							
+					</aside>
+				</section>
+				<section>
+					<h3>Ontwikkelen van smart contract</h3>
+					<ul>
+						<li class="fragment">Solidity; scripttaal voor de blockchain</li>
+						<li class="fragment">Gebruik oracles</li> 
+						<li class="fragment">Denk meer in events</li>
+						<li class="fragment">Specifieke features voor blockchain</li>
+					</ul> 
+					
+					<aside class="notes">
+						Missende features; Data uitlezen uit externe bronnen, geen random, wel throw maar geen catch<br>
+						Extra features; <br>
+							- calls (constant), transactions en payable transactions<br>
+							- restrictie van gasverbruik<br>
+							- function modifiers<br>
+							- msg object 
+					</aside>
+				</section>
+				<section>
+					<h3>Ontwikkelen van smart contract</h3>
+					 <pre>
+						<code>contract HelloWorld { 
+    string lastGreeting;
+    
+    function HelloWorld() public {
+     
+    }
+    function SetGreeting(string greeting)  {
+         lastGreeting = greeting;
+    }
+    
+    function Greet() constant returns (string) {
+         return lastGreeting;
+    }
+    
+}
+							</code>
+					</pre>
+					<small>ProTip: werk eerst in Remix van Ethereum: <a href="https://remix.ethereum.org/" target="blank">https://remix.ethereum.org/</a></small>
+					
+					<aside class="notes">
+						Leg uit dat dit een basis is. Het staat op een adres en het kan geld bevatten. <br/>
+						Je kan alleen geld sturen van uit je eigen ether
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Topografie</h2>
+					<ul>
+						<img class="stretch plain" src="/lib/flow.PNG" />
+						 
+					</ul>
+					<aside class="notes">
+						 Geth: geschreven in GO. varianten zijn parity of ethereum J<br/>
+								Opstarten via commandline <br/>
+						 Mist: Handig om straks je contract mee te releasen<br/>
+						 Ehterscan: altijd handig bij disputen, ook handig om in test netwerk te kijken<br/>
+						 Nethereum: De dotnet library die interfaced met Geth. <br/>
+						 
+					</aside>
+				</section>
+				<section data-transition="fade-out">
+					<h2>Opzetten van Geth</h2>
+					<pre>
+						<code>
+#Test network
+ .\geth --rinkeby --fast --cache=4096 --rpc --rpcapi="eth,web3,personal,miner"
+
+ # production network
+ .\geth --fast --cache=4096 --rpc --rpcapi="eth,web3,personal,miner"
+						</code>
+					</pre>
+					<aside class="notes">
+						Leg per parameter uit wat ze doen
+						Leg verschil in proof of work/ proof of stake uit
+					</aside>
+				</section>
+				<section data-transition="fade-in">
+					<h3>Succesvol Geth startup</h3>
+					<img class="stretch plain"  src="lib/geth.PNG" />
+					
+				</section>
+				<section>
+					<h2 style="margin-bottom: 0px" >Gratis geld!</h2>
+					<span class="fragment">
+						<small>(Op test netwerk)</small> <br/>
+						<a href="https://faucet.rinkeby.io/">https://faucet.rinkeby.io/</a>
+						<img src="lib/faucet rain.PNG" />
+					</span>
+				</section> 
+				<section>
+					<h2>Ons contract</h2>
+					<p>Functioneel</p>
+					<ul>
+						<li>Zet tokens in de blockchain</li>
+						<li>Registreer een token claim door een wallet adres</li>
+						<li>Distribueer 1/3 van het cadeau</li> 
+						<li>en..</li>
+						<li class="fragment">Kill; om je balans na afloop terug te sturen</li>
+						<li class="fragment">nameless method voor geld ontvangen</li> 
+					</ul>
+					<aside class="notes">
+						Alle functies zijn aanroepbaar via .Net
+						
+					</aside>
+				</section>
+				<section>
+					<h2>Ons contract</h2>
+					<p>De code in Ethereum Remix; <a href="https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.19+commit.c4cbbb05.js" target="_blank">hier</a>
+					 
+					<aside class="notes">
+						Leg de IsGiver() uit
+						Leg uit dat je eerst een test netwerk kan gebruiken
+					</aside>
+				</section>
+				<section>
+					<h2>Wat kan verbeterd worden?</h2> 
+					<ol>
+						<li class="fragment">Mist functie om token claims verwijderen uit de blockchain</li>
+						<li class="fragment">Encryptie van token al in .Net</li>
+						<li class="fragment">Gebruik send in plaats van transfer</li>
+					</ol>
+					<aside class="notes">
+						Vraag de zaal naar hun mening<br/>
+						Send is beter omdat het niet heel je transactie terug rolt
+					</aside>
+				</section> 
+				<section>
+					<h2>Ethereum Wallet</h2>
+					<img src="lib/mist.PNG" />
+					<aside class="notes">
+						Toon de lokale wallet<br/>
+						Misschien even een contract releasen<br/>
+					</aside>
+				</section>
+				<section>
+					<h2>Eindelijk .Net Code</h2>					
+				</section>
+				<section>
+					<h2>Architectuur</h2>					
+					<img class="stretch plain" src="lib/architecture.png" />
+					<aside class="notes">
+						- De website is heel simpel MVC, de API is alle logica<br/>
+						- De importer is voor de csv met ontvangers<br/>
+						- Table storage voor redundantie van de data<br/>
+						- Scheduler is voor de uitgifte<br/>						
+					</aside>
+				</section>
+				<section>
+					<h2>API</h2>
+					<img class="stretch plain"  src="lib/api.png" />
+					<aside class="notes">
+						dotNetCore mvc api met swagger<br/>
+						alleen intern benaderbaar<br/>
+						Loskoppelbaar<br/> 
+					</aside>
+				</section>
+				<section>
+					<h2>Nethereum</h2>
+					<p>Wat heb je nodig?</p>
+					<ul>
+						<li>Contract adres</li>
+						<li>Account adres + Password</li>
+						<li>ABI????<br/>
+						<span class="fragment">Application Binary Interface</span> </li>
+					</ul>
+				
+				</section>
+				<section> 
+					<img class="stretch plain"  src="lib/abi.PNG" />
+				</section>
+				<section data-transition="fade-in">
+					<h2>Interactie met blockchain</h2>
+					<img class="stretch plain"  src="lib/unlock.PNG" />
+					<aside class="notes">
+						Elke keer bij interactie is een unlock nodig
+					</aside>
+				</section>
+				<section> 
+					<h2>Functies</h2>					 
+				</section> 
+				<section data-transition="fade-out fade-in"> 
+					<img class="stretch plain"  src="lib/getBalance.PNG" />
+					<aside class="notes">
+						- Geen nieuw blok in de chain<br/>
+						- Alleen lokale uitvoer<br/>
+						- Table storage voor redundantie van de data<br/>
+						- Scheduler is voor de uitgifte<br/>						
+					</aside>
+				</section>
+				<section> 
+					<h2>Transacties</h2>					 
+				</section> 
+				<section>  
+					<h2>Originele implementatie</h2>
+					<img class="stretch plain"  src="lib/wrong_transactions.png" />
+					<aside class="notes">
+						- Eerst bespreken wat er gebeurt <br/>
+						- Events afvangen bespreken<br/>
+						- While loop om de transactie om te zetten naar receipt<br/>
+						- Alhoewel async, wel blocking <br/>
+						-
+					</aside>
+				</section>
+				<section> 
+					<h2>Hoe het beter zou kunnen</h2>					 
+					<ul>
+						<li>Transactie hashes opslaan bij aanroep</li> 
+						<li>Geen mine gebruiken</li>
+						<li>Los proces voor resultaat checken</li>
+					</ul>
+				</section>
+				<section>					
+					<img class="stretch plain"  src="lib/good_transactions.png" />
+				</section>						
+				<section>
+					<h2>Eerste hulp bij problemen</h2>
+					<ul>
+						<li class="fragment">Haal diep adem en wacht</li>
+						<li class="fragment">Check of je hoeveelheid gas goed is</li>
+						<li class="fragment">Check of je locale blockchain bij is</li> 
+						<li class="fragment">Etherscan; openbare ledger; https://etherscan.io/</li>
+					</ul>
+				</section>
+				<section>
+					<small>Bedankt voor jullie aandacht</small>
+					<h2>Vragen?</h2> 
+					
+				</section>
+			</div>
+		</div>
+		<div class="logo"></div>	
+		<style>
+			.people-list {
+				text-align: center !important;
+			}
+				
+			.people-list__item {
+				display: inline-block;
+			}
+			
+			.people-list__avatar {
+				width: 6rem;
+				height: 6rem;
+				margin: .75rem !important;
+				border-radius: 50%;
+				/* background-color: #fa484c; */
+				background-blend-mode: screen;
+				background-size: cover;
+			}
+			.stretch plain {
+				border: 0px solid red;
+			}
+		</style>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				slideNumber: 'c/t' ,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'socket.io/socket.io.js', async: true },
+		{ src: 'plugin/notes-server/client.js', async: true }
+				]
+			});
+		</script>
+		<style>
+			.shadowTitle {
+				color: red;
+				
+			}
+		</style>
+	</body>
+</html>
